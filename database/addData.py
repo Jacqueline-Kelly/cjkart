@@ -6,6 +6,9 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 
+# getting environmental variables to access db
+load_dotenv()
+
 art_dict_06_22 = dict({
    0:{'type':2, 'title':'CJ'},
    1:{'type':0, 'title':'SightBlinder'}, 

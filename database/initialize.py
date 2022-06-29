@@ -1,7 +1,6 @@
 """
 Create the art table in the database, named as cj_art
 """
-
 import psycopg2
 import os
 from dotenv import load_dotenv

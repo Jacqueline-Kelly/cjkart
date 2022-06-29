@@ -6,10 +6,10 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 
-sql_statement = '''SELECT * from cj_art'''
-
 # getting environmental variables to access db
 load_dotenv()
+
+sql_statement = '''SELECT * from cj_art'''
 
 #establishing the connection
 conn = psycopg2.connect(

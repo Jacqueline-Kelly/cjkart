@@ -2,8 +2,13 @@
 Access images from s3 public bucket 
 '''
 import boto3
+import os
+from dotenv import load_dotenv
 
-def retrieveImages(region = 'us-east-2', bucket_name = 'cjartbucket', folder_marker='images/'):
+# getting environmental variables to access db
+load_dotenv()
+
+def retrieveImages(region = os.getenv('bucketregion'), bucket_name = os.getenv('bucketname'), folder_marker=os.getenv('bucketfolder')):
 
     s3client = boto3.client(
         's3',
@@ -20,4 +25,4 @@ def retrieveImages(region = 'us-east-2', bucket_name = 'cjartbucket', folder_mar
 
     return object_url_list
 
-  
+print(retrieveImages())
