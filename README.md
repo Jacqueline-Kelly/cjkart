@@ -1,4 +1,8 @@
-Website to display CJ Kelly's artwork. Authored by Jacqueline Kelly.
+Website to display CJ Kelly's artwork, hosted by AWS Amplify- Check it out here!
+
+https://master.d32qvs43v71gfs.amplifyapp.com/
+
+Authored by Jacqueline Kelly.
 
 React front-end with select CSS classes taken from 'React Front to Back 2022' on Udemy by Brad Traversy. 
 
