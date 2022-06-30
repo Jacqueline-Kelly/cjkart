@@ -13,14 +13,13 @@ const Home = () => {
 
     return isLoading ? <Loading /> : (
         <div>
-        
         <Header/>
         <div>
             <h1 style={{'textAlign':'left','padding':'80px', 'color':'white', 'fontSize':'20px'}}>
                 Welcome! Below are select works from the artist CJKelly to enjoy.     
             </h1> 
             </div>
-            <div className="container">
+            <div className="container" id='theart'>
            <ImgMap data={data}/>
            </div>
    
