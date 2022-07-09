@@ -10,7 +10,7 @@ export const DataProvider = ( {children} ) => {
     const loadData = async() => {
         const results = await axios({
             method: "get",
-            url: "https://gawr0zw85i.execute-api.us-east-2.amazonaws.com/cjart_local",
+            url: `${process.env.REACT_APP_api}`,
         })
         console.log(results.data.body)
         setData(results.data.body)
