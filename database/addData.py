@@ -55,10 +55,6 @@ def addData(data=dict_add_url()):
    return
 
 addData()
-# data = dict_add_url()
-# for id, image_info in data.items():
-#    type_val, title, url = image_info.values()
-#    print(url)
 
 
 
