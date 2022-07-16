@@ -13,7 +13,6 @@ export const DataProvider = ( {children} ) => {
             url: `${process.env.REACT_APP_api}`,
         })
         console.log(results.data.body)
-        console.log(results)
         setData(results.data.body)
         setIsLoading(false)
     }

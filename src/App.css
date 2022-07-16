@@ -239,4 +239,63 @@
     font-family: inherit;
   }
 
+  @media screen and (max-width: 750px) {
+    .form-group input {
+      width: 80vw;
+    }
+  }
+
+  .form-group textarea {
+    padding: 0.5vw;
+    width: 50vw;
+    height: 30vh;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+    font-family: inherit;
+  }
+
+  @media screen and (max-width: 750px) {
+    .form-group textarea {
+      width: 80vw;
+    }
+  }
+
+  #g-recaptcha {
+    transform: scale(1);
+    transform-origin: 0 0 0;
+  }
+
+  @media screen and (max-width: 400px) {
+    #g-recaptcha {
+      transform: scale(0.7);
+      transform-origin: 0 0 0;
+    }
+  }
+
+  .contact-btn {
+    background-color: #ff6a95;
+    color: #000000;
+    margin-top: 1vw;
+    font-size: 2vh;
+    font-weight: 550;
+    border-radius: 1rem;
+    width: 20vw;
+  }
+
+  .contact-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+
+  .contact-btn:active {
+    color: #BFB2F3;
+  }
+
+  @media screen and (max-width: 650px) {
+    .contact-btn {
+      width: 40vw;
+    }
+  }
   
