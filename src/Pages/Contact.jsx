@@ -52,7 +52,7 @@ const Contact = () => {
     const updateRecaptchaToken = (token) =>{
         setRecaptchaToken(token)
       }
-      console.log(recaptcha_site_key)
+
     return (
         <div>
             <h1  className="about" style={{'fontSize':'6vh', 'fontWeight':'bold','color':'#fff','marginLeft':'2vw'}}>
